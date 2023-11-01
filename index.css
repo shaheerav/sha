@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(orange,red);
+}
+.name{
+    color: white;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 0.001px;
+    float: left;
+    padding-top: 10px;
+}
+.icon{
+    width: 800px;
+    float: left;
+    height: 70px;
+    margin-left: 60px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 75px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+ul li a:hover{
+    color: maroon;
+}
+.search{
+    padding-top: 20px;
+    float: left;
+}
+.srch{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid maroon;
+    border-radius: 50px;
+}
+.btn{
+    background: red;
+    width: 50px;
+    border-color: maroon;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: yellow;
+}
+.content{
+    float: left;
+    padding-left:60px;
+    padding-top: 50px;
+    width: 1200px;
+    height: auto;
+    color: white;
+}
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 5px;
+}
+.butn{
+    background: orange;
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    border-radius: 50px;
+}
+.butn a{
+    color: red;
+    font-size: bold;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.but:hover{
+    color: yellow;
+    background: red;
+}
+.image{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    padding-left: 800px;
+    padding-top: 150px;
+}
+.image .img{
+    width: 400px;
+    height: 400px;
+}
